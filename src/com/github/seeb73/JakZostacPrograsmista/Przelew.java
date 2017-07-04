@@ -26,7 +26,7 @@ public class Przelew {
     {
         System.out.println("Odbiorca: " + this.nazwaOdbiorcy );
         System.out.println("Tytułem: " + this.title +" Kwota: " + this.amount + " " + walutaPrzelewu );
-        System.out.println("Z rachunku: " + this.rachunekNadawcy + ", Na rachunek: " + this.rachunekOdbiorcy );
+        System.out.println("Z rachunku: " + rachunekNadawcy + ", Na rachunek: " + this.rachunekOdbiorcy );
     }
 
 }
