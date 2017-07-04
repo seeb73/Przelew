@@ -14,11 +14,11 @@ public class Przelew {
     private String rachunekNadawcy = "78 1240 0001 3684 0110 7766 8444";
     private String walutaPrzelewu = "PLN";
 
-    public Przelew(String title, double amount,String nazwaOdbiorcy, String rachunekOdbiorcy) {
-        this.title = title;
-        this.amount = amount;
-        this.nazwaOdbiorcy = nazwaOdbiorcy;
-        this.rachunekOdbiorcy = rachunekOdbiorcy;
+    public Przelew(String tytulem, double kwota,String odbiorca, String odbiorcaRachunek) {
+        title = tytulem;
+        amount = kwota;
+        nazwaOdbiorcy = odbiorca;
+        rachunekOdbiorcy = odbiorcaRachunek;
     }
 
     public void wypiszDanePrzelewu()
