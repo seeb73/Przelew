@@ -27,5 +27,4 @@ public class Przelew {
         System.out.println("Tytułem: " + przelewTytulem +" Kwota: " + kwotaPrzelewu + " " + walutaPrzelewu );
         System.out.println("Z rachunku: " + rachunekNadawcy + ", Na rachunek: " + rachunekOdbiorcy );
     }
-
 }
